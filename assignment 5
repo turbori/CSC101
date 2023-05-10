@@ -1,0 +1,31 @@
+low = int(input("Low: "))
+high = int(input("High: "))
+x = int(input("x: "))
+
+
+for num in range(low, high):
+    if num % x == 0:
+        print(num)
+
+
+print()
+print()
+print()
+print()
+
+
+
+
+userNumber = int(input("Enter number: "))
+
+maxNumber = userNumber
+
+while userNumber >= 0:
+
+   if userNumber > maxNumber:
+
+       maxNumber = userNumber
+
+   userNumber = int(input("Enter number: "))
+
+print("Largest integer: "+str(maxNumber))
